@@ -1,6 +1,7 @@
-syntax on
 execute pathogen#infect()
+
 cd C:\Development
+syntax on
 set nocompatible
 set modelines=0
 set clipboard=unnamed
