@@ -10,3 +10,6 @@
 [submodule "bundle/mustange-vim"]
 	path = bundle/mustange-vim
 	url = https://github.com/croaker/mustang-vim
+[submodule "bundle/bundle/ack.vim"]
+	path = bundle/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
