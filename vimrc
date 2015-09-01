@@ -43,11 +43,9 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
-au FocusLost * :wa
 
-set backupdir=C:\\temp\\vimBackups\\
-set directory=C:\\Temp\\vimBackups\\
-silent execute '!del "'.$VIMRUNTIME.'\temp\*~"'
+set backupdir=$TMP\vimBackups\\
+set directory=$TMP\vimBackups\\
 
 filetype plugin on
 set noshowmatch
