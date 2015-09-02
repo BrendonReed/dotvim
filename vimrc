@@ -44,8 +44,8 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
-set backupdir=$TMP\\
-set directory=$TMP\\
+set backupdir=$TMP//
+set directory=$TMP//
 
 filetype plugin on
 set noshowmatch
@@ -135,7 +135,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
-let g:ctrlp_user_command = 'ag -i --nocolor --nogroup --hidden --ignore .git --ignore .svn --ignore .hg --ignore .DS_Store --ignore "**/*.pyc" -g "" %s'
+let g:ctrlp_user_command = 'ag -i --nocolor --nogroup --hidden --ignore .git --ignore .svn --ignore .hg --ignore .DS_Store --ignore "**/*.pyc" --ignore "**/*.dll" --ignore "**/*.pdb" -g "" %s'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc\|public\/images\|public\/system\|data\|log\|tmp$',
   \ 'file': '\.exe$\|\.so$\|\.dat$'
