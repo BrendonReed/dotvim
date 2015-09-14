@@ -141,3 +141,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.exe$\|\.so$\|\.dat$'
   \ }
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+let g:ackprg = 'ag --nogroup --nocolor --column --ignore-case'
