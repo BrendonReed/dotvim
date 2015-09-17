@@ -52,6 +52,9 @@ set noshowmatch
 set completeopt=longest,menuone,preview
 set splitbelow
 
+nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>a :Ack 
+
 augroup omnisharp_commands
     autocmd!
 
