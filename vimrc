@@ -27,12 +27,12 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 
+let mapleader = ","
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
 set smartcase
 set incsearch
-set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
@@ -48,7 +48,6 @@ set directory=$TMP//
 
 filetype plugin on
 set noshowmatch
-set completeopt=longest,menuone,preview
 set splitbelow
 
 nnoremap <leader>w <C-w>v<C-w>l
