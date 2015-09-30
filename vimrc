@@ -8,8 +8,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-
-set guifont=Consolas:h10:cANSI
+set guifont=Consolas:h10,Monaco:h12,Inconsolata:h10
 colorscheme solarized
 set encoding=utf-8
 set scrolloff=3
@@ -43,8 +42,10 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
-set backupdir=$TMP//
-set directory=$TMP//
+silent execute '!mkdir "'.$VIMRUNTIME.'/temp"'
+silent execute '!del "'.$VIMRUNTIME.'/temp/*~"'
+set backupdir=$VIMRUNTIME/temp//
+set directory=$VIMRUNTIME/temp//
 
 filetype plugin on
 set noshowmatch
