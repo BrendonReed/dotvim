@@ -42,6 +42,8 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
+inoremap jj <ESC>
+
 silent execute '!mkdir "'.$VIMRUNTIME.'/temp"'
 silent execute '!del "'.$VIMRUNTIME.'/temp/*~"'
 set backupdir=$VIMRUNTIME/temp//
@@ -53,6 +55,8 @@ set splitbelow
 
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>a :Ack 
+au BufRead,BufNewFile *.fs set filetype=fs
+au BufRead,BufNewFile *.fsx set filetype=fs
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
