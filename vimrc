@@ -45,10 +45,10 @@ set colorcolumn=85
 
 inoremap jj <ESC>
 
-silent execute '!mkdir "'.$VIMRUNTIME.'/temp"'
-silent execute '!del "'.$VIMRUNTIME.'/temp/*~"'
-set backupdir=$VIMRUNTIME/temp//
-set directory=$VIMRUNTIME/temp//
+silent execute '!mkdir "'.$HOME.'/vimtemp"'
+silent execute '!del "'.$HOME.'/vimtemp/*~"'
+set backupdir=$HOME/vimtemp//
+set directory=$HOME/vimtemp//
 
 filetype plugin on
 set noshowmatch
