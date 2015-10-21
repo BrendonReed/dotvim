@@ -9,7 +9,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set guifont=Consolas:h10,Monaco:h12,Inconsolata:h10
-colorscheme solarized
+"colorscheme solarized
 set encoding=utf-8
 set scrolloff=3
 set autoindent
@@ -56,8 +56,6 @@ set splitbelow
 
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>a :Ack 
-au BufRead,BufNewFile *.fs set filetype=fs
-au BufRead,BufNewFile *.fsx set filetype=fs
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
