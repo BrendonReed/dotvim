@@ -9,9 +9,12 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set guifont=Consolas:h10,Monaco:h12,Inconsolata:h10
+
 "colorscheme solarized
 colorscheme desert
 set encoding=utf-8
+setglobal fileencoding=utf-8
+set listchars=tab:▸\ ,eol:¬
 set scrolloff=3
 set autoindent
 set showmode
