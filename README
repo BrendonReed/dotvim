@@ -1,6 +1,8 @@
 Installation:
 
     git clone git://github.com/brendonreed/dotvim.git ~/.vim
+    on Windows:
+    git clone git://github.com/brendonreed/dotvim.git C:\Program\ Files\ \(x86\)\Vim\vimfiles
 
 Create symlinks or set pointer :
 
