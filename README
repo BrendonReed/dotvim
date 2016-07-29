@@ -1,16 +1,16 @@
 Installation:
 
     git clone git://github.com/brendonreed/dotvim.git ~/.vim
-    on Windows:
-    git clone git://github.com/brendonreed/dotvim.git C:\Program\ Files\ \(x86\)\Vim\vimfiles
+    on windows
+    git clone git://github.com/brendonreed/dotvim.git ~/vimfiles
 
 Create symlinks or set pointer :
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Or, in ~\_vimrc put:
-    source C:\Program\ Files\ (x86)\Vim\vimfiles\vimrc
+in windows download and use Junction from sysinternals:
+    junction vimfiles c:\Users\breed\vimfiles
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
