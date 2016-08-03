@@ -11,9 +11,12 @@ Create symlinks or set pointer :
 
 in windows download and use Junction from sysinternals:
     junction vimfiles c:\Users\breed\vimfiles
+and for the VsVim extension, from  home directore (c:\Users\breed):
+    mklink _vsvimrc vimfiles\vsvimrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
     git submodule init
     git submodule update
+    
