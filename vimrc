@@ -60,6 +60,8 @@ set splitbelow
 
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>a :Ack 
+
+set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
