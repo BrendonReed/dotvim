@@ -9,9 +9,12 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set guifont=Consolas:h10,Monaco:h12,Inconsolata:h10
+
 "colorscheme solarized
 colorscheme desert
 set encoding=utf-8
+setglobal fileencoding=utf-8
+set listchars=tab:▸\ ,eol:¬
 set scrolloff=3
 set autoindent
 set showmode
@@ -67,7 +70,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
-let g:ctrlp_user_command = 'ag -i --nocolor --nogroup --hidden --ignore .git --ignore .svn --ignore .hg --ignore .DS_Store --ignore "**/*.pyc" --ignore "**/*.dll" --ignore "**/*.pdb" -g "" %s'
+let g:ctrlp_user_command = 'ag -i --nocolor --nogroup --hidden --ignore .git --ignore .svn --ignore .hg --ignore .DS_Store --ignore "**/*.pyc" --ignore "**/*.dll" --ignore "**/*.pdb --ignore build/*.pdb --ignore build/*.dll" -g "" %s'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc\|public\/images\|public\/system\|data\|log\|tmp$',
   \ 'file': '\.exe$\|\.so$\|\.dat$'
