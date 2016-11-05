@@ -120,7 +120,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
+let g:fsharp_only_check_errors_on_write = 1
 let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
 let g:ctrlp_user_command = 'ag -i --nocolor --nogroup --hidden --ignore .git --ignore .svn --ignore .hg --ignore .DS_Store --ignore "**/*.pyc" --ignore "**/*.dll" --ignore "**/*.pdb --ignore build/*.pdb --ignore build/*.dll" -g "" %s'
 let g:ctrlp_custom_ignore = {
