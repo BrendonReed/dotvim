@@ -20,3 +20,7 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule init
     git submodule update
     
+Install ag (the silver surfer) in PATH
+
+For fsharp auto-completion and syntax checking run make in bundle/vim-fsharp/
+    
