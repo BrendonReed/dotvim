@@ -7,21 +7,12 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "bundle/mustange-vim"]
-	path = bundle/mustange-vim
-	url = https://github.com/croaker/mustang-vim
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/vim-csharp"]
 	path = bundle/vim-csharp
 	url = git://github.com/OrangeT/vim-csharp.git
-[submodule "vim-vividchalk"]
-	path = bundle/vim-vividchalk
-	url = https://github.com/tpope/vim-vividchalk
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/ctrlp-py-matcher"]
 	path = bundle/ctrlp-py-matcher
 	url = https://github.com/FelikZ/ctrlp-py-matcher
