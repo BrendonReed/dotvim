@@ -38,7 +38,6 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
-nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 

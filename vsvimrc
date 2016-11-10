@@ -34,7 +34,8 @@ set wrap
 set formatoptions=qrn1
 set colorcolumn=85
 
+inoremap jj <ESC>
+
 nmap <C-O> :vsc View.NavigateBackward<CR>
 nmap <C-I> :vsc View.NavigateForward<CR>
 nmap <C-]> :vsc Edit.GoToDefinition<CR>
-nnoremap <leader>fu :vsc ReSharper.ReSharper_FindUsages<cr>
