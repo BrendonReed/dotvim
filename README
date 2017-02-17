@@ -24,3 +24,4 @@ Install ag (the silver surfer) in PATH
 
 For fsharp auto-completion and syntax checking run make in bundle/vim-fsharp/
 Autocomplete is <C-x><C-o>
+Python must be installed separately
