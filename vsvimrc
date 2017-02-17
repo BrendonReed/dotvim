@@ -38,4 +38,12 @@ inoremap jj <ESC>
 
 nmap <C-O> :vsc View.NavigateBackward<CR>
 nmap <C-I> :vsc View.NavigateForward<CR>
-nmap <C-]> :vsc Edit.GoToDefinition<CR>
+nmap <leader>d :vsc Edit.GoToDefinition<CR>
+nmap <leader>n :vsc Tools.ExternalCommand3<CR>
+nmap <leader>p :vsc Tools.ExternalCommand4<CR>
+
+nmap <leader>a :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+nmap <leader>r :vsc ReSharper.ReSharper_RefactorThis<CR>
+nmap <leader>c :vsc ReSharper_AltEnter<CR>
+nmap <leader>m :vsc Edit.ToggleOutliningExpansion<CR>
+
