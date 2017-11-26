@@ -43,6 +43,7 @@ nmap <leader>n :vsc Tools.ExternalCommand3<CR>
 nmap <leader>p :vsc Tools.ExternalCommand4<CR>
 
 nmap <leader>a :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+nmap <leader>ts :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
 nmap <leader>r :vsc ReSharper.ReSharper_RefactorThis<CR>
 nmap <leader>c :vsc ReSharper_AltEnter<CR>
 nmap <leader>m :vsc Edit.ToggleOutliningExpansion<CR>

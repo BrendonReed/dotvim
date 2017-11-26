@@ -87,6 +87,11 @@ cnoremap <expr> %% expand('%:h').'/'
 map <leader>e :edit %%
 map <leader>v :view %%
 
+"""""""""""""""""""""""""""""""
+" Open hosts file
+""""""""""""""""
+nmap <leader>h :e C:\Windows\System32\drivers\etc<CR>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RENAME CURRENT FILE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
