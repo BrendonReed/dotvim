@@ -48,11 +48,13 @@ set colorcolumn=85
 
 inoremap jj <ESC>
 
-silent execute '!mkdir "'.$HOME.'/vimtemp"'
-silent execute '!del "'.$HOME.'/vimtemp/*~"'
-set backupdir=$HOME/vimtemp//
-set directory=$HOME/vimtemp//
-
+if has("win32") || has("win64")
+    set directory=$TMP
+    set backupdir=$TMP
+else
+    set directory=/tmp
+    set backupdir=/tmp
+end
 filetype plugin on
 set noshowmatch
 set splitbelow
