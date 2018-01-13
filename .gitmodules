@@ -22,6 +22,3 @@
 [submodule "bundle/scratch"]
 	path = bundle/scratch
 	url = https://github.com/mtth/scratch.vim
-[submodule "bundle/vim-fsharp"]
-	path = bundle/vim-fsharp
-	url = https://github.com/fsharp/vim-fsharp/
