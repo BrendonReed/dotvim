@@ -1,6 +1,6 @@
 function! ExecuteSQL()
     let g:sqlquery = @q
-    let g:sqltempfile = $HOME . '\vimfiles\vim.sql'
+    let g:sqltempfile = $TEMP . '\vim.sql'
 
     if g:sqlquery == ""
         echo "The register q does not have query"
