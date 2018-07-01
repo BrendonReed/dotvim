@@ -134,5 +134,5 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 let g:ackprg = 'ag --nogroup --nocolor --column --ignore-case'
 
-so $HOME/vimfiles/executesql.vim
+so $HOME/.vim/executesql.vim
 map <Leader>sq "qy:call ExecuteSQL()<CR>
