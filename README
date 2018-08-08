@@ -8,11 +8,11 @@ Create symlinks or set pointer :
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
-
-in windows download and use Junction from sysinternals:
-    junction vimfiles c:\Users\breed\vimfiles
-and for the VsVim extension, from  home directore (c:\Users\breed):
+    on windows
+    mklink _vimrc vimfiles\vimrc
+    mklink _gvimrc vimfiles\gvimrc
     mklink _vsvimrc vimfiles\vsvimrc
+    mklink /D .vim vimfiles
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
