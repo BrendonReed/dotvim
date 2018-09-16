@@ -15,6 +15,7 @@ colorscheme desert
 set encoding=utf-8
 setglobal fileencoding=utf-8
 set listchars=tab:▸\ ,eol:¬
+set list
 set scrolloff=3
 set autoindent
 set showmode
