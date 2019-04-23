@@ -10,8 +10,14 @@ set softtabstop=4
 set expandtab
 set guifont=Consolas:h10,Monaco:h12,Inconsolata:h10
 
-"colorscheme solarized
-colorscheme desert
+colorscheme github
+"colorscheme desert
+"vimdiff colorscheme
+"highlight DiffAdd cterm=none ctermfg=green ctermbg=black
+"highlight DiffDelete cterm=none ctermfg=darkred ctermbg=black
+"highlight DiffChange cterm=none ctermfg=none ctermbg=black
+"highlight DiffText cterm=none ctermfg=black ctermbg=darkyellow
+
 set encoding=utf-8
 setglobal fileencoding=utf-8
 set listchars=tab:▸\ ,eol:¬
@@ -31,6 +37,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set nu
+
 
 let mapleader = ","
 nnoremap / /\v

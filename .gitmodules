@@ -19,3 +19,6 @@
 [submodule "bundle/scratch"]
 	path = bundle/scratch
 	url = https://github.com/mtth/scratch.vim
+[submodule "/Users/brendon.reed/.vim/bundle/github.vim"]
+	path = /Users/brendon.reed/.vim/bundle/github.vim
+	url = https://github.com/albertorestifo/github.vim.git
