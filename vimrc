@@ -10,7 +10,8 @@ set softtabstop=4
 set expandtab
 set guifont=Consolas:h10,Monaco:h12,Inconsolata:h10
 
-colorscheme github
+colorscheme pencil
+"colorscheme github
 "colorscheme desert
 "vimdiff colorscheme
 "highlight DiffAdd cterm=none ctermfg=green ctermbg=black

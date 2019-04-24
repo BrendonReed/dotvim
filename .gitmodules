@@ -22,3 +22,6 @@
 [submodule "/Users/brendon.reed/.vim/bundle/github.vim"]
 	path = /Users/brendon.reed/.vim/bundle/github.vim
 	url = https://github.com/albertorestifo/github.vim.git
+[submodule "bundle/vim-colors-pencil"]
+	path = bundle/vim-colors-pencil
+	url = https://github.com/reedes/vim-colors-pencil.git
